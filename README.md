@@ -9,6 +9,6 @@ Build the NS3 by : ./build.py --enable-examples --enable-tests
  
 test ns3 by :  ./ns3 run hello-simulator
 
-Copy your .cc files to the scratch folder, then execute it using the command : ./ns3 run script.cc 
+Copy the .cc files ( lr-wpan-data-energy.cc in this case) to the "--/ns3.41/scratch/ "  folder, then go back to "--/ns3.41/"  and run the script using the command : "./ns3 run script.cc"
 
 Once the script runned, it is gonna generate some ".plt" files in the ns3.41/ folder, which should be plotted using for example the command : " gnuplot ART-Energy-distance.plt " 
